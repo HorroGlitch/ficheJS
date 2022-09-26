@@ -44,3 +44,6 @@ console.log(identity)
 
 let majuscule = identity.toUpperCase();
 console.log(majuscule)
+
+//identity est une constante qui à toUpperCase dedans, stocké donc dans une variable majuscule qui rend les caractères en majuscules.
+
