@@ -47,3 +47,24 @@ console.log(majuscule)
 
 //identity est une constante qui à toUpperCase dedans, stocké donc dans une variable majuscule qui rend les caractères en majuscules.
 
+
+age = prompt("quel est votre age")
+if (age <=0){
+console.log("vous êtes un poisson pané");
+} 
+
+if (age < 120){
+console.log("Votre âge est validé");
+}else if (age = 0){
+console.log("Je ne suis pas d'accord");
+}
+
+if (age >= 21){
+console.log("Vous êtes majeur")
+}else if (age < 21 && age >= 18){
+console.log("Vous êtes majeur mais pas aux USA")
+}else (age < 18);{
+console.log("Vous êtes mineur")
+}
+
+// <  <=  >=
