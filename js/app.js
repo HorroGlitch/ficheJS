@@ -1,4 +1,4 @@
-console.log("hello");
+    console.log("hello");
 let age;
 age = '16';
 
@@ -9,62 +9,90 @@ const prenom= 'Loïc'
 
 let addition;
 addition = 4+12;
-console.log(addition)
+    console.log(addition)
 
 let soustraction;
 soustraction = 2-50;
-console.log(soustraction)
+    console.log(soustraction)
 
 let multiplication;
 multiplication = 3*8;
-console.log(multiplication)
+    console.log(multiplication)
 
 let division;
 division = 7/2;
-console.log(division)
+    console.log(division)
 
 let modulo;
 modulo = 5%2;
-console.log(modulo)
+    console.log(modulo)
 
 let test;
 test = 3>5;
-console.log(test)
+    console.log(test)
 
-console.log(typeof(test))
+    console.log(typeof(test))
 
 //Test est un boolean
 
 // >  >=  <  <=  ==  ===  !=  !==
 
 const identity= "bonjour" + " " + "Loïc" + " " + "vous avez" + " " + "16" + " " + "ans"
-console.log(identity)
+    console.log(identity)
 
 //L'opériation qui est réalisée est une concaténation
 
 let majuscule = identity.toUpperCase();
-console.log(majuscule)
+    console.log(majuscule)
 
 //identity est une constante qui à toUpperCase dedans, stocké donc dans une variable majuscule qui rend les caractères en majuscules.
 
 
 age = prompt("quel est votre age")
 if (age <=0){
-console.log("vous êtes un poisson pané");
+    console.log("vous êtes un poisson pané");
 } 
 
 if (age < 120){
-console.log("Votre âge est validé");
+    console.log("Votre âge est validé");
 }else if (age = 0){
-console.log("Je ne suis pas d'accord");
+    console.log("Je ne suis pas d'accord");
 }
 
 if (age >= 21){
-console.log("Vous êtes majeur")
+    console.log("Vous êtes majeur")
 }else if (age < 21 && age >= 18){
-console.log("Vous êtes majeur mais pas aux USA")
+    console.log("Vous êtes majeur mais pas aux USA")
 }else (age < 18);{
-console.log("Vous êtes mineur")
+    console.log("Vous êtes mineur")
 }
 
 // <  <=  >=
+
+function direBonjour(){
+    console.log("Bonjour");  
+}
+function direBonjourAkelkain(name){
+    console.log("Bonjour " + name);
+}
+direBonjourAkelkain("Loïc")
+
+function hello(name, city="Lyon"){
+    console.log("Bonjour " + name + " " +  "vous habitez " + city)
+}
+hello("Loïc", "Lyon")
+
+function add(a,b){
+    console.log(a+b)
+}
+add(5, 2)
+
+function div(a,b){
+    console.log(a/b)
+}
+div(8, 2)
+
+function positive(num){
+    return (num>0)
+}
+console.log(positive(2))
